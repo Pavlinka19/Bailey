@@ -1,0 +1,260 @@
+/* mobil */
+
+html {
+    background-color: #FCF8EC;
+}
+
+body {
+    font-family: Verdana;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-right: 10px;
+    text-align: right;
+    font-family: Arial;
+    color: #FCF8EC;
+    text-shadow: 2px 3px 2px #22577E;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+img {
+    width: 100%;
+    height: 50%;;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #FCF8EC;
+    padding-bottom: 2px;
+    text-align: right;
+    padding-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline solid #95D1CC 3px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(./images/lake.jpg);
+    background-size: cover;
+    background-position: left;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.who,
+.adopt {
+    color: #22577E;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    color: #22577E;
+    text-shadow: 2.5px 1px 1px #95D1CC;
+}
+
+h3 {
+    color: #22577E;
+    text-shadow: 2.5px 1px 1px #95D1CC;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #22577E;
+}
+
+.contact img {
+    width: 20%;
+}
+
+.bye {
+    text-align: right;
+}
+
+.bye img {
+    width: 10%;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* TABLET */
+
+@media only screen and (min-width: 500px)  and (max-width: 1000px) {
+
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1000px) {
+
+    html {
+        background-color: white;
+    }
+
+    body {
+        width: 60%;
+        margin: 0 auto;
+        background-color: #FCF8EC;
+        border: 18px solid #22577E;
+        border-radius: 0.4%;
+    }
+
+    .header {
+        min-height: 550px;
+    }
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.menu {
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    max-width: 50%;
+}
+
+.menu a {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #22577E;
+    text-shadow: 1px 1px 2px #FCF8EC;
+    text-decoration: underline solid #95D1CC 8px;
+    padding: 15px;
+} 
+
+.menu a:hover {
+    transform: scale(1.2);
+}
+    
+h2 {
+    text-shadow: 2px 1px -100px #95D1CC;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.who {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.who p {
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: -10px;
+    margin-top: 25px;
+}
+
+.who img {
+    width: 30%;
+    border-radius: 10%;
+    border: 7px solid #95D1CC;
+}
+
+
+.vpelechu img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    border: 7px solid #95D1CC;
+    border-radius: 10%;
+}
+
+.adopt {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.adopt p {
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px
+}
+
+.gallery img {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+
+.contact img {
+    margin: 0 auto;
+    width:10%;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.bye {
+    margin: 0 auto;
+    font-size: 5rem;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.bye img {
+    width: 10%
+}
+
+
+
+}
